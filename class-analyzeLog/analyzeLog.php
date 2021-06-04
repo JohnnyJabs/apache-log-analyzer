@@ -17,6 +17,5 @@ class analyzeLog {
         //TODO
         }
 	}
-	
 }
 ?>
