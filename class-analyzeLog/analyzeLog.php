@@ -5,11 +5,13 @@ class analyzeLog
 
     public $type;
     public $log;
+    public $errorCodeCounts;
     /**
      * class analyzeLog
      *
      * @param string $type ['apache', 'mysql']
      * @param string $log ['/your/log/location/file.log']
+     * @param int $errorCodeCounts
      */
     public function __construct($type, $log)
     {
